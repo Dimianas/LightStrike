@@ -1,0 +1,7 @@
+# Plugin create by Dimianas, you can use this plugin for an event or for April 1 to have fun, the code is very primitive.
+reload-message: '&f[LightStrike] &7- config reloaded!'
+
+LightStrike: # Lights spawn only in world
+  enable: true # Enable or disable random spawn light
+  radius: 50 # The radius within which lightning will spawn
+  ticks: 5 # Time in ticks after which a new lightning will spawn

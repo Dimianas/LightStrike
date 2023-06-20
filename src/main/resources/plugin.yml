@@ -1,0 +1,12 @@
+name: LightStrike
+version: '${project.version}'
+main: ru.dimianas.LightStrike.Main
+api-version: 1.13
+authors: [ Dimianas ]
+description: The plugin is designed for events or for April 1st to have fun
+website: https://2k2f.site/
+commands:
+  lights:
+    description: Reload the config.yml file.
+    usage: /lights reload
+    permission: phantom.reload
